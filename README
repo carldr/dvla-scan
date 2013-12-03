@@ -1,2 +1,2 @@
-% grep -E ^.......$ /usr/share/dict/words | tr A-Z a-z | uniq | ruby -n check.rb
-% ( for i in `grep -E ^...$ /usr/share/dict/words`; do echo "boss$i"; done ) | tr A-Z a-z | uniq | ruby -n check.rb
+% grep -E ^.......$ /usr/share/dict/words | tr A-Z a-z | uniq | ruby check.rb
+% ( for i in `grep -E ^...$ /usr/share/dict/words`; do echo "boss$i"; done ) | tr A-Z a-z | uniq | ruby check.rb
