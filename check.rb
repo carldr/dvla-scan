@@ -1,6 +1,5 @@
 require "rubygems"
 require "excon"
-require "hpricot"
 
 def no_equiv( word, converted )
 	puts "No equivalent for #{word.downcase}/#{converted}"
